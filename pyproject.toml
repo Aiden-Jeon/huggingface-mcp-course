@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11,<3.13"
 dependencies = [
+    "fastmcp>=2.5.2",
     "gradio[mcp]>=5.33.0",
     "huggingface-hub>=0.32.4",
     "mcp[cli]>=1.9.0",
+    "smolagents[mcp]>=1.17.0",
+    "textblob>=0.19.0",
 ]
