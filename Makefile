@@ -16,3 +16,6 @@ run_mcp:
 
 run_mcp_sentiment:
 	uv run python unit_2/mcp-sentiment/app.py
+
+run_mcp_gradio:
+	uv run python unit_2/mcp-client-gradio/app.py
