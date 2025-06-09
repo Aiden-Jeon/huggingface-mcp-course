@@ -1,0 +1,11 @@
+[project]
+name = "mcp-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "gradio[mcp]>=5.33.0",
+    "huggingface-hub>=0.32.4",
+    "mcp[cli]>=1.9.0",
+]
