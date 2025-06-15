@@ -19,3 +19,6 @@ run_mcp_sentiment:
 
 run_mcp_gradio:
 	uv run python unit_2/mcp-client-gradio/app.py
+
+init_submodule:
+	git submodule update --init --recursive
